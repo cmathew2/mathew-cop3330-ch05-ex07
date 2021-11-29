@@ -11,7 +11,7 @@ void rootCheck (double a, double b, double c)
     {
         cout<<"\n The quadratic formula has failed. This equation has no real roots";
     }
-    
+
     else if(discrim == 0)
     {
         root1 = (-b+(sqrt(discrim)))/(2*a);
@@ -27,10 +27,6 @@ void rootCheck (double a, double b, double c)
         cout<<"\n This equation has two real, different roots: "<<root1 <<"and" <<root2;
     }
 }
-
-
-
-
 
 int main()
 {
